@@ -1,0 +1,96 @@
+body {
+    align-items: center;
+    background-image: url( 8.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.yeah {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 2px solid darkgrey;
+    box-shadow: 0 0 50px darkgrey;
+}
+
+.yeah li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.yeah li a {
+    position: relative;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.yeah li a:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background: darkgrey;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.yeah li a:hover:before {
+    width: 100%;
+}
+
+.yeah li.upward1 a:hover:before,
+.yeah li.upward2 a:hover:before,
+.yeah li.upward3 a:hover:before,
+.yeah li.upward4 a:hover:before {
+    bottom: 0px;
+    opacity: 1;
+}
+
+.homee {
+    background-image: url("  nav.jpg ");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 50px;
+    width: 80%; 
+    margin: 100px;
+    box-shadow: 0 0 80px black;
+    border-radius: 10px; border: 2px solid darkgrey;
+    transition: opacity 1.3s ease-in-out; 
+}
+.homee:hover {
+    transition: transform 1.3s;
+    transform: scale(1.1);
+}
+
+.homee1 {
+    max-width: 600px;
+}
+
+
+
+p {
+    font-size: x-large;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hoeme {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.hoeme:hover {
+    background-color: darkgrey;
+}

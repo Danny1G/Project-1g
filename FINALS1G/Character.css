@@ -1,0 +1,109 @@
+body {
+    background-image: url( 2fe71a97a4bf82efd04e7195cef5935d10e2414c-scaled.webp  );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+
+.grid-item.image1 {
+  background-color: black; 
+
+}
+
+.grid-item.image2 {
+  background-color: black; 
+}
+
+.grid-item.image3 {
+  background-color: black; 
+  
+}
+.grid-item.image4 {
+  background-color: black; 
+  
+}
+
+.grid-item.image5 {
+  background-color: black; 
+}
+
+.grid-item.image6 {
+  background-color: black; 
+}
+
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.grid-item:hover {
+  background-color: #aaaaaa;
+}
+
+.grid-item:hover img {
+  transform: scale(1.05);
+}
+
+
+  .yeah {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 2px solid darkgrey;
+    box-shadow: 0 0 50px darkgrey;
+}
+
+.yeah li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.yeah li a {
+    position: relative;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.yeah li a:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background: darkgrey;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.yeah li a:hover:before {
+    width: 100%;
+}
+
+.yeah li.upward1 a:hover:before,
+.yeah li.upward2 a:hover:before,
+.yeah li.upward3 a:hover:before,
+.yeah li.upward4 a:hover:before {
+    bottom: 0px;
+    opacity: 1;
+}
+

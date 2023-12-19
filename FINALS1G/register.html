@@ -1,0 +1,31 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="name" required placeholder="Name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required placeholder="Email">
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" required placeholder="Password">
+
+            <label for="password_confirmation">Confirm Password:</label>
+            <input type="password" name="password_confirmation" required placeholder="Confirm Password">
+
+            <button onclick="getUsername()">Register</button>
+        <p id="result"></p>
+        <div class="login">
+            Do you have an account already?
+            <a href="Login.html">Login Now</a>
+        </div>
+    </div>
+</body>

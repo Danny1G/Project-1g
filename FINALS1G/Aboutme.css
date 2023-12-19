@@ -1,0 +1,117 @@
+body {
+    background-image:url('about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px; border: 2px solid red;
+    box-shadow: 40px 45px 50px red;
+}
+
+h1 {
+    color: black;
+}
+.h11 {
+    color: black; 
+}
+.tanan:hover {
+    transition: transform 1.3s;
+    transform: scale(1.1);
+}
+.tanan {
+    transition: opacity 1.3s ease-in-out;
+}
+h2 {
+    color: black;
+}
+
+p {
+    line-height: 1.6;
+    color: black;
+    text-shadow: black;
+}
+
+.profile-img {
+    max-width: 100%;
+    border-radius: 50%;
+    border-radius: 10px; border: 2px solid red;
+}
+li {
+    color: white;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.yeah {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 2px solid red;
+    box-shadow: 0 0 50px red;
+}
+
+.yeah li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.yeah li a {
+    position: relative;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.yeah li a:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background: red;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.yeah li a:hover:before {
+    width: 100%;
+}
+
+.yeah li.upward1 a:hover:before,
+.yeah li.upward2 a:hover:before,
+.yeah li.upward3 a:hover:before,
+.yeah li.upward4 a:hover:before {
+    bottom: 0px;
+    opacity: 1;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
